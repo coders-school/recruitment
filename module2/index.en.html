@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Object Oriented Programming - Coders School</title>
+
+        <meta name="description" content="OOP">
+        <meta name="author" content="Mateusz Adamski & Łukasz Ziobroń">
+
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/reveal.css">
+        <link rel="stylesheet" href="../../css/theme/coders.css" id="theme">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../../lib/css/monokai.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? '../../css/print/pdf.css' : '../../css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-background="#111111">
+					<h1>Candidate Questions</h1>
+					<br/>
+					<h2>CODERS SCHOOL</h2>
+					<a href="https://coders.school">https://coders.school</a>
+
+						<div class="multicolumn">
+							<div class="col">
+								<img data-src="../logo.png" alt="Coders School" class="plain" height="150px">
+							</div>
+
+							<div class="col"></div>
+
+								<div class="col">
+									Bartosz 'BaSz' Szurgot
+									<a href="mailto:bartek.szurgot@baszerr.eu">bartek.szurgot@baszerr.eu</a>
+								</div>
+						</div>
+				</section>
+                <section data-markdown>
+                    <textarea data-template>
+
+                    ## Agenda
+
+                    * <!-- .element: class="fragment fade-in" --> Foreword
+                    * <!-- .element: class="fragment fade-in" --> How will recruiting process look like
+                    * <!-- .element: class="fragment fade-in" --> Working conditions
+                    * <!-- .element: class="fragment fade-in" --> Employment
+                    * <!-- .element: class="fragment fade-in" --> Trainings
+                    * <!-- .element: class="fragment fade-in" --> Work tasks
+                    * <!-- .element: class="fragment fade-in" --> Project organization
+                    * <!-- .element: class="fragment fade-in" --> Technologies
+                    * <!-- .element: class="fragment fade-in" --> Workstations
+                    * <!-- .element: class="fragment fade-in" --> Tool-chain and environment
+                    * <!-- .element: class="fragment fade-in" --> Afterword
+
+                    </textarea>
+                </section>
+				<!--
+					Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+					For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+
+					Usage:
+					Install dependencies
+
+					$ npm install
+					Serve the presentation and monitor source files for changes
+
+					$ npm start
+					Open http://localhost:8000 to view your presentation
+
+					You can change the port by using npm start -- --port=8001.
+				-->
+				<section data-markdown="01_foreword.en.md"
+						 data-separator-vertical="^___"
+						 data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="02_about_recruiting_process.en.md"
+						 data-separator-vertical="^___"
+						 data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="03_working_conditions.en.md"
+						 data-separator-vertical="^___"
+						 data-separator-notes="^Note:">
+                </section>
+                <section data-markdown="04_employment.en.md"
+						 data-separator-vertical="^___"
+						 data-separator-notes="^Note:">
+                </section>
+                <section data-markdown="05_trainings.en.md"
+						 data-separator-vertical="^___"
+						 data-separator-notes="^Note:">
+                </section>
+                <section data-markdown="06_work_tasks.en.md"
+						 data-separator-vertical="^___"
+						 data-separator-notes="^Note:">
+                </section>
+                <section data-markdown="07_project_organization.en.md"
+						 data-separator-vertical="^___"
+						 data-separator-notes="^Note:">
+                </section>
+                <section data-markdown="08_technologies.en.md"
+						 data-separator-vertical="^___"
+						 data-separator-notes="^Note:">
+                </section>
+                <section data-markdown="09_workstations.en.md"
+						 data-separator-vertical="^___"
+						 data-separator-notes="^Note:">
+                </section>
+                <section data-markdown="10_tool-chain_and_environment.en.md"
+						 data-separator-vertical="^___"
+						 data-separator-notes="^Note:">
+                </section>
+                <section data-markdown="11_afterword.en.md"
+						 data-separator-vertical="^___"
+						 data-separator-notes="^Note:">
+                </section>
+				<section data-background="#111111">
+                    <h1>CODERS SCHOOL</h1>
+                    <a href="https://coders.school">https://coders.school</a>
+
+                    <br/><br/>
+
+                    <div class="multicolumn">
+                    <div class="col">
+                        <div>
+                            <img data-src="../logo.png" alt="Coders School" class="plain" height="150px">
+                        </div>
+                    </div>
+
+                    <div class="col"></div>
+
+                    <div class="col">
+						Bartosz 'BaSz' Szurgot
+						<a href="mailto:bartek.szurgot@baszerr.eu">bartek.szurgot@baszerr.eu</a>
+					</div>
+                    </div>
+                </section>
+			</div>
+	    </div>
+
+		<script src="../../js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				width: 1200,
+				height: 750,
+				slideNumber: true,
+				hash: true,
+				pdfSeparateFragments: false,
+				dependencies: [
+					{ src: '../../plugin/externalcode/externalcode.js', condition: function() { return !!document.querySelector( '[data-code]' ); } },
+					{ src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../../plugin/markdown/marked.js' },
+					{ src: '../../plugin/markdown/markdown.js' },
+					{ src: '../../plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
