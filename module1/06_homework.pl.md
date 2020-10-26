@@ -19,5 +19,5 @@ ___
 
    * <!-- .element: class="fragment fade-in" --> <a href="https://www.facebook.com/szkola.coders.school">Facebook</a>
    * <!-- .element: class="fragment fade-in" --> <a href="https://www.linkedin.com/in/lukaszziobron/">LinkedIn (+ potwierdzenie umiejętności)</a>
-   * <!-- .element: class="fragment fade-in" --> <a href="https://www.google.com/maps/place/Coders+School/@51.09926,16.9976388,19z/data=!4m7!3m6!1s0x470fc20ffeb98a75:0x9c523147244dbb99!8m2!3d51.09926!4d16.998186!9m1!1b1?hl=pl-PL">Google</a>
+   * <!-- .element: class="fragment fade-in" --> <a href="https://g.page/szkola-coders-school/review?rc">Google</a>
    * <!-- .element: class="fragment fade-in" --> <a href="mailto:lukasz@coders.school">mail: lukasz@coders.school</a>
